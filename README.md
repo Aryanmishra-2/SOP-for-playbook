@@ -4,8 +4,7 @@
 - [Introduction](#introduction)  
 - [Purpose](#purpose)  
 - [Prerequisites](#prerequisites)  
-- [Required Inputs](#required-inputs)  
-- [Playbook Structure](#playbook-structure)  
+- [Required Inputs](#required-inputs)   
 - [Execution Steps](#execution-steps)  
 - [Validation & Pre-Checks](#validation--pre-checks)  
 - [Post Execution Validation](#post-execution-validation)  
@@ -49,5 +48,11 @@ Ensure the following before running the playbook:
 | `vault_password`  | If using Ansible Vault for secrets               | `--ask-vault-pass`              |
 
 ---
+
+## Execution Steps
+
+## Run Playbook:
+```bash ansible-playbook -i inventory playbook
+```
 
 
