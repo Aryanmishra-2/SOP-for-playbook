@@ -26,7 +26,7 @@
 ---
 
 ## Introduction
-This SOP provides a comprehensive guide to executing Ansible Playbooks for infrastructure automation and application deployment. It ensures standardized, reliable, and repeatable automation processes across environments.
+This SOP provides a comprehensive guide to executing Ansible Playbooks for infrastructure automation and application deployment. It ensures standardized, reliable, and repeatable automation processes across environments by clearly defining the playbook’s purpose, outlining step-by-step execution procedures, specifying required inputs, and including validation checks to ensure accuracy and consistency.
 
 ---
 
