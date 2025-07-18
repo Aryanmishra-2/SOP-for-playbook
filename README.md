@@ -1,5 +1,14 @@
-# Standard Operating Procedure (SOP) for Executing Ansible Playbooks
+# SOP for Executing Ansible Playbooks
 
+---
+## Author Information
+
+| Created         | Created on         | Version          | Last updated by   | pre Reviewer       | L0 Reviewer     | L1 Reviewer          |    L2 Reviewer    |
+|-----------------|--------------------|------------------|-------------------|--------------------|-----------------|----------------------|-------------------|
+| Aryan mishra    |16-07-2025          | V.1        |                         |        Siddharth   |                 |                       |                  |
+   
+ ---
+ 
 ## Table of Contents
 - [Introduction](#introduction)  
 - [Purpose](#purpose)  
@@ -101,9 +110,7 @@ This SOP ensures a standardized, secure, and efficient method for automating inf
 
 ## References
 
-| Name                       |         Resource                                                         |
-|--------------------------------|----------------------------------------------------------------------|
-| Official Ansible Documentation | [Link](https://docs.ansible.com/)                        |
-
-
+| Name                           |         Resource                                                         |
+|--------------------------------|--------------------------------------------------------------------------|
+| Official Ansible Documentation | [Link](https://docs.ansible.com/ansible/latest/index.html)                        |
 
