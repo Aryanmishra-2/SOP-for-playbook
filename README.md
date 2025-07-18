@@ -13,7 +13,8 @@
 - [Introduction](#introduction)  
 - [Purpose](#purpose)  
 - [Prerequisites](#prerequisites)  
-- [Required Inputs](#required-inputs)   
+- [Required Inputs](#required-inputs)
+- [Playbook example](#Playbook-example)  
 - [Execution Steps](#execution-steps)  
 - [Validation & Pre-Checks](#validation--pre-checks)   
 - [Troubleshooting Tips](#troubleshooting-tips)  
@@ -56,7 +57,32 @@ Ensure the following before running the playbook:
 | `vault_password`  | If using Ansible Vault for secrets               | `--ask-vault-pass`              |
 
 ---
+## Playbook example
+```bash
+- name: Install NGINX
+  hosts: webservers
+  become: yes
 
+  tasks:
+    - name: Install NGINX (Ubuntu/Debian)
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+      when: ansible_os_family == "Debian"
+
+    - name: Install NGINX (RHEL/CentOS)
+      yum:
+        name: nginx
+        state: present
+      when: ansible_os_family == "RedHat"
+
+    - name: Ensure NGINX is running
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+```
 ## Execution Steps
 
 | Step                     | Description                   | Command                                                                 |
