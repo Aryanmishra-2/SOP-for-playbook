@@ -104,18 +104,6 @@ This SOP ensures a standardized, secure, and efficient method for automating inf
 | Name                       |         Resource                                                         |
 |--------------------------------|----------------------------------------------------------------------|
 | Official Ansible Documentation | [Link](https://docs.ansible.com/)                        |
-| Ansible Galaxy Roles           | [Link](https://galaxy.ansible.com/)                    |
-| Best Practices – Ansible Guide | [Link](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html) |
-| Ansible Vault                  | [Link](https://docs.ansible.com/ansible/latest/user_guide/vault.html) |
-| Dynamic Inventory Plugins      | [Link](https://docs.ansible.com/ansible/latest/plugins/inventory.html) |
-
-
----
-## 📚 Reference
-
-| Title                                | Link                                                                 |
-|--------------------------------------|----------------------------------------------------------------------|
-| 📘 Official Ansible Documentation (Complete Guide) | [https://docs.ansible.com/ansible/latest/index.html](https://docs.ansible.com/ansible/latest/index.html) |
 
 
 
